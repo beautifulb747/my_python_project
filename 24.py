@@ -29,7 +29,7 @@ class Game24:
             window.geometry("400x300")
             window.title("关于")
             text_widget = tk.Text(window, height=20, width=50)
-            text_widget.insert("end", "by beautifulb747@163.com \n欢乐24点 v:1.2.0 py\n主程序编写：beautifulb747@163.com\n部分代码编写及程序修改：Chat GPT\n\n此版本更新内容：1.修改了已知的BUG。 2.丰富了题库。3.增加了积分功能。（每做对一题加一积分） 4.增加了帮助功能。（“帮助”程序算法可能存在缺陷，如程序算不出24可以在网上（建议百度）查询）\n反馈想法、意见或错误，请联系beautifulb747@163.com")
+            text_widget.insert("end", "by beautifulb747@163.com \n欢乐24点 v:1.2.0 py\n主程序编写：beautifulb747@163.com\n注：【帮助】程序算法可能存在缺陷，如程序算不出24可以在网上查询\n反馈想法、意见或错误，请联系beautifulb747@163.com")
             text_widget.configure(state="disabled")
             text_widget.pack()
 
@@ -41,7 +41,7 @@ class Game24:
             window.geometry("400x300")
             window.title("规则")
             text_widget = tk.Text(window, height=20, width=50)
-            text_widget.insert("end", "点击【开始】按钮以开始游戏\n输入算式是注意：\n1.乘和除用*和/表示\n2.输入的算式不要加等于号，否则会报错。\n3.算式中的括号必须是英文的，否则会报错。\n反馈想法、意见或错误，请联系beautifulb747@163.com")
+            text_widget.insert("end", "点击【开始】按钮以开始游戏\n输入算式时注意：\n1.乘和除用*和/表示\n2.输入的算式不要加等于号，否则会报错。\n3.算式中的括号必须是英文的，否则会报错。\n反馈想法、意见或错误，请联系beautifulb747@163.com")
             text_widget.configure(state="disabled")
             text_widget.pack()
 
